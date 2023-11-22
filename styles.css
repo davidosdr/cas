@@ -1,0 +1,138 @@
+@import 'bourbon';
+@import 'neat';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sintony', sans-serif;
+}
+
+#banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+}
+
+#banner .banner-text {
+    background-color: #0a9396;
+    color: #e9d8a6;
+    padding: 5px;
+}
+
+/* Otros estilos según sea necesario */
+
+#navbar {
+    display: grid;
+    min-height: 90px;
+    grid-auto-flow: column;
+    background-color: #005f73;
+    grid-gap: 1.5em;
+    padding: 0 40px;
+    -webkit-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+    -moz-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+    box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+}
+
+#links {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+    font-family: "Open Sans", sans-serif;
+}
+
+#links a {
+    text-decoration: none;
+    color: #e9d8a6;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#links a:hover {
+    color: #0474bc;
+}
+
+a {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    background-color: #e9d8a6;
+    margin: 0; /* Añadido para eliminar el margen predeterminado */
+    padding: 0; /* Añadido para eliminar el relleno predeterminado */
+}
+
+main {
+    background-color: #e9d8a6;
+    padding: 10px;
+}
+
+.logo-container {
+    max-width: 45px; /* Ajusta según el tamaño de tu logo */
+    margin: 1px; /* Ajusta según el espacio que desees alrededor del logo */
+}
+
+.slider {
+ width: 100%;
+ height: 400px;
+ overflow: hidden;
+ position: absolute;
+}
+
+.slide {
+ width: 100%;
+ height: 400px;
+ position: absolute;
+ opacity: 0;
+ transition: opacity 1s ease-in-out;
+ border: 5px solid #0A9396;
+ border-radius: 0.75%;
+}
+
+.slide img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.slide:first-child {
+ opacity: 1;
+}
+
+
+.footer {
+
+ background-color: #0A9396;
+
+ padding: 20px;
+
+ text-align: center;
+
+} 
+.izquierda {
+      padding: 20px;
+      background-color: #e9d8a6;
+      text-align: center;
+}
+
+.derecha {
+      padding: 200px;
+      background-color: #e9d8a6;
+}
+
+img {
+      max-width: 900%;
+      height: auto;
+      display: block;
+      margin: auto;
+}
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+}
