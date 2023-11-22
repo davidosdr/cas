@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web de CAS - IB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sintony:400,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+     <nav>
+      <div id="navbar">
+       
+        <div id="links">
+         <a href="index.html"><b>Inicio</b></a>
+          <a href="informacion.html"><b>Información</b></a>
+          <a href="creatividad.html"><b>Creatividad</b></a>
+          <a href="accion.html"><b>Acción</b></a>
+          <a href="servicio.html"><b>Servicio</b></a>
+        </div>
+      </div>
+
+    </nav>
+    </header>
+
+    <section id="banner">
+    
+        <div class="banner-text">
+            <h1><b>Servicio</b></h1>
+            </div>
+    </section>
+
+
+
+    <main>
+        <section id="introduction" class="container">
+     
+<div class="slider">
+ <div class="slide"><img src="image.jpg" alt=""></div>
+ <div class="slide"><img src="image2.jpg" alt=""></div>
+ <div class="slide"><img src="image3.jpg" alt=""></div>
+ <div class="slide"><img src="image4.jpg" alt=""></div>
+</div>
+
+</div>
+
+</div>
+
+
+        <h2><b>Biografía</b></h2>
+        <p> Me presento, soy Ariadna Gòdia, una estudiante del IB en el instituto INS Josep Lladonosa de Lérida durante los cursos 2016-2018. Es la primera vez que cambio de instituto, ya que nunca me he movido del colegio Santa Anna. Lo llevo muy bien, ya que los compañeros hacen que mi estancia aquí sea mucho mejor de lo esperado. Me considero una persona muy enérgica y extrovertida.
+
+        Me encanta conocer gente de culturas diferentes y etnias completamente ajenas a la mía. Por ese motivo, uno de mis objetivos al largo de mi vida, es poder conocer todos los rincones, calles y callejuelas de cada una de las ciudades y pueblecitos del mundo. Es parte de mi personalidad tener una mente abierta, no me es difícil comprender las dos caras de un conflicto. Ya que, me interesa estar informada antes de juzgar erróneamente.
+
+        Por otro lado, la impaciencia es un punto negativo que juega en mi contra. Entiendo que debo ser paciente, y que las cosas llegan cuando tienen que llegar, pero no me gusta esperar ni hacer que me esperen.
+
+        En relación con mi actitud frente a la sociedad, tengo una aptitud que no se si encasillarla en virtud o defecto, puesto que intento conseguir la felicidad para todos, aun que a veces me olvide de la mía propia, y eso, me satura.
+
+        Mi madre suele decirme que soy una cabezota, que cuando se me mete una idea en la cabeza, es difícil que se me vaya con facilidad. Lucho para conseguir mis metas y me cuesta mucho aceptar un no como respuesta, pero opino que siempre se tiene que saber los límites.
+
+        Hablando de intereses, me encanta la música. Des de pequeña he tocado el piano y hace tres años estoy en el mundo de la percusión. Me ha servido como una válvula de escape, una burbuja de todos y de todo. Siento la música muy dentro de mí. Sé encontrar la canción perfecta para cualquier momento. Una curiosidad, es que hace poco, una persona muy importante para mí, me reveló una cosa, me dijo: “Sé exactamente cómo te sientes por las canciones que suenan en tus auriculares o tarareas”. Y es verdad, transmito mis sentimientos a través de la música.
+
+        Un punto flojo en mi parte artística es sin duda el dibujar y el pintar. Se me da fatal
+
+        Una de las cosas que se me dan bien también, son los idiomas. Tengo facilidad con las lenguas y me encanta saber como comunicarme con todos. Por eso, ese anhelo de viajar.
+
+        En la parte de actividad, solía jugar a voleyball y montaba a caballo.  Era un momento de descargar energía negativa de toda la semana. Me lo pasaba muy bien.
+
+        He participado en una lista de voluntariados (que espero que se haga más larga) que me han enseñado a ser como soy y me han hecho madurar de una manera especial. He aprendido la importancia de los voluntarios, en cualquier aspecto del servicio.
+
+        Pero poco a poco, a través de mis experiencias  y proyectos de CAS, se irá viendo diferentes apartados de mi personalidad anteriormente descritos.
+
+        Espero disfrutar de esta nueva forma de hacer las cosas.
+
+        Ariadna Gòdia</p>
+
+    
+    </section>
+
+    <!-- Otras secciones y contenido pueden ir aquí -->
+
+    </main>
+
+   
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
